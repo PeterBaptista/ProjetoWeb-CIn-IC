@@ -1,0 +1,191 @@
+/* corpo */
+
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Cabeçalho */
+header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../Images/fotoCin.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+}
+
+header h1{
+    color: #FFFFFF;
+    background-color: #0505059c;
+}
+
+header p {
+    margin-bottom: 2em;
+    background-color: #0505059c;
+    border-style: dashed #191970;
+}
+#sobre {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970 ;
+    color: #FFFFFF;
+}
+
+#sobre h2 {
+    color: #FFFFFF;
+}
+#sobre img {
+    border: #FFFFFF solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#python {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    text-align: center;
+}
+
+#python img{
+    border: #FFFFFF solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#python p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#musica {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970 ;
+    color: #FFFFFF;
+}
+iframe {
+    width: 100%;
+}
+#musica h2 {
+    color: #FFFFFF;
+}
+
+#musica p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#top-musicas{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#musica ol li {
+    
+    padding: 5px 5px 10px 10px;
+    color: #000000;
+}
+#musica ol li a {
+
+    text-decoration: none;
+    
+    
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#contato h2 {
+    color: #000000;
+}
+
+ @media screen and (min-width: 768px) {
+
+    /*nav*/
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%
+    }
+    /*Cabeçalho*/
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    iframe{
+        width: 50%;
+    }
